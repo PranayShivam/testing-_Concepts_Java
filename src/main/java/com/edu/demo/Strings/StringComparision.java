@@ -1,4 +1,4 @@
-package Strings;
+package com.edu.demo.Strings;
 
 public class StringComparision {
     public static void main(String[] args) {

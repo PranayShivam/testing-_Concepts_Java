@@ -1,4 +1,4 @@
-package Strings;
+package com.edu.demo.Strings;
 
 public class IntroToStrings {
     public static void main(String[] args) {
