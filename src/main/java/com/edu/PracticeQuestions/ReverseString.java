@@ -1,4 +1,4 @@
-package com.edu.demo.PracticeQuestions;
+package com.edu.PracticeQuestions;
 
 import java.util.Scanner;
 

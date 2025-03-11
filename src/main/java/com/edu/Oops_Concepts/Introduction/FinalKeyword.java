@@ -1,4 +1,4 @@
-package com.edu.demo.Oops_Concepts.Introduction;
+package com.edu.Oops_Concepts.Introduction;
 
 public class FinalKeyword {
     public static void main(String[] args) {

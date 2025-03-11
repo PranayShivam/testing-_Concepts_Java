@@ -1,4 +1,4 @@
-package com.edu.demo.Arrays;
+package com.edu.Arrays;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

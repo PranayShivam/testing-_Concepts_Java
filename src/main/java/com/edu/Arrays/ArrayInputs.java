@@ -1,4 +1,4 @@
-package com.edu.demo.Arrays;
+package com.edu.Arrays;
 import java.util.*;
 import java.lang.*;
 public class ArrayInputs {

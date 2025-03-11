@@ -1,4 +1,4 @@
-package com.edu.demo;
+package com.edu;
 
 public class Temp {
     String s = "ABC";

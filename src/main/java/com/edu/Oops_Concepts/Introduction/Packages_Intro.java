@@ -1,4 +1,4 @@
-package com.edu.demo.Oops_Concepts.Introduction;
+package com.edu.Oops_Concepts.Introduction;
 
 public class Packages_Intro {
     public static void main(String[] args) {

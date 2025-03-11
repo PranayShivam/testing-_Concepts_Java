@@ -1,4 +1,4 @@
-package com.edu.demo.Strings;
+package com.edu.Strings;
 
 import java.util.ArrayList;
 
