@@ -18,5 +18,10 @@ public class Main {
 
         ReverseString rrr = new ReverseString();
         System.out.println(rrr.reverse());
+
+    }
+
+    public static void message() {
+        System.out.println("Hii");
     }
 }
