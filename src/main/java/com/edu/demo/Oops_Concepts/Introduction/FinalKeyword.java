@@ -14,6 +14,9 @@ public class FinalKeyword {
 
     static class A {
         final int VALUE = 10;
+
+// Even though name is not Initialized, the code works because of the Constructor
+// The Condition that name should be initialized satisfies as soon as a parameterized constructor Created
         final String name;
 
         public A(String name) {

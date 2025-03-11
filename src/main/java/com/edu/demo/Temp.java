@@ -1,6 +1,7 @@
 package com.edu.demo;
 
 public class Temp {
+    String s = "ABC";
     public static void main(String[] args) {
         String str = "Hello World";
         String str1 = "Hello World";
@@ -22,5 +23,18 @@ public class Temp {
         a = b;
         b = temp;
         System.out.println("Inside Swap Method: " + a + "and" + b);
+    }
+
+    class A {
+        final int VALUE = 10;
+        final String NAME;
+
+        public A(String name){
+            this.NAME = name;
+        }
+
+//        void setNAME(String name){
+//            this.NAME = name;
+//        }
     }
 }
