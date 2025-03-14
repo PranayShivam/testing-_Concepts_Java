@@ -1,8 +1,11 @@
-package com.edu.Oops_Concepts.Introduction;
+package com.edu.Oops_Concepts.Introduction_PART_2;
+
+import static com.edu.Main.message;
 
 public class Packages_Intro {
     public static void main(String[] args) {
         A obj = new A("Hello");
+        message();
     }
 
     static class A {
@@ -15,6 +18,4 @@ public class Packages_Intro {
             this.str = str;
         }
     }
-//    Temp T = new Temp();  // Import statement for Temp ->  import com.edu.demo.Temp;
-
 }

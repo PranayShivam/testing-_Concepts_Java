@@ -14,8 +14,11 @@ public class Temp {
         int a = 10;
         int b = 20;
         swap(a,b);
-        System.out.println("Inside Main Method: " + a + "and" + b);
+//        System.out.println("Inside Main Method: " + a + "and" + b);
         // Swap does not happen  because Java uses pass by value not pass by reference
+
+        Test x = new Test("A");
+        System.out.println("X: " + x);
     }
 
     static void swap(int a, int b){
@@ -36,5 +39,19 @@ public class Temp {
 //        void setNAME(String name){
 //            this.NAME = name;
 //        }
+    }
+
+    static class Test {
+        String value;
+
+        public Test(String value) {
+            this.value = value;
+        }
+
+        @Override
+        public String toString(){
+            String a = "ABC";
+            return a;
+        }
     }
 }
