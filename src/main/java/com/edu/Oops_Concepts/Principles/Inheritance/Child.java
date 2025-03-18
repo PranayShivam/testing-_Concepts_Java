@@ -1,10 +1,18 @@
 package com.edu.Oops_Concepts.Principles.Inheritance;
 
+import java.util.Arrays;
+
 public class Child extends Parent{
     double weight;
 
-    public Child(double weight) {
+    public Child() {
+        super();
         this.weight = -1;
+    }
+
+    public Child(double side, double weight) {
+        super(side);
+        this.weight = weight;
     }
 
     public Child(double length, double width, double height, double weight) {
@@ -12,9 +20,9 @@ public class Child extends Parent{
         this.weight = weight;
     }
 
-    public void information() {
-        String str = Double.toString(weight);
-        super.information(str);
+    public void information(String... s) {
+        String w = Double.toString(weight);
+        super.information(w + Arrays.toString(s));
     }
 
 

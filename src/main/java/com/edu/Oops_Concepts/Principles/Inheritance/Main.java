@@ -18,6 +18,9 @@ public class Main {
         // Hence weight cannot be initialized using child ref of Parent obj
 //        ParentWeight pw2 = new Parent(10, 10, 10) // this cant be done as logical behaviour
 
+        GrandChild gc = new GrandChild(10, 10, 10);
+        gc.information();
+
 
     }
 }
