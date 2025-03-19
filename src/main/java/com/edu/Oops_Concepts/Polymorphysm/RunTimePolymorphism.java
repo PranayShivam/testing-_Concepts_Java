@@ -1,9 +1,16 @@
 package com.edu.Oops_Concepts.Polymorphysm;
 
 
-/**
+/*
  * This is an example of Run Time Polymorphism
  * Which is also known as Method Overriding
+ */
+
+/**
+ * Overriding depends on objects
+ * Static dose-not depend on Objects
+ * Hence, Static methods cannot be overridden
+ * But static methods can be inherited
  */
 public class RunTimePolymorphism {
 

@@ -16,5 +16,20 @@ public class Main {
         Shapes shapes1 = new Triangle();
         shapes1.area();
 
+//        Static method is not getting overridden because static methods are of the class and
+//        dose-not require reference
+        Shapes sp = new Square();
+        sp.greeting();
+        Shapes.greeting();
+
+        shapes.setHiddenData(10);
+        System.out.println(shapes.getHiddenData());
+
     }
 }
+
+/**
+ * Overriding depends on objects
+ * Static dose-not depend on Objects
+ * Hence, Static methods cannot be overridden
+ */

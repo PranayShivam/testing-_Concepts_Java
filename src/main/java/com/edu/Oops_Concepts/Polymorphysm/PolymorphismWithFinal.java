@@ -15,19 +15,22 @@ package com.edu.Oops_Concepts.Polymorphysm;
  * Final Classes cannot be Extended  i.e cannot be inherited by another class
  */
 
-public class PolymorphismWithFinal {
+public final class PolymorphismWithFinal {
 
     public static class WithFinal {
 
         void noShow() {
             System.out.println("No Show in Parent Class");
         }
+
         final void show() {
             System.out.println("Show");
         }
     }
 
     public static class WithoutFinal extends WithFinal {
+
+        static int a = 10;
         void print() {
             System.out.println("Print");
         }
@@ -50,7 +53,21 @@ public class PolymorphismWithFinal {
         WithoutFinal wf = new WithoutFinal();
         WithFinal wf1 = new WithFinal();
 
-
     }
+}
 
+/**
+ * If an outer class is final, it cannot be inherited, But still the outer classes can be inherited/Extended
+ *  below is an Example
+ */
+
+class Test {
+    static String a = "10";
+
+    void Test1() {
+        Test.a = "-1";
+    }
+}
+class NewClass extends PolymorphismWithFinal.WithoutFinal{
+//     PolymorphismWithFinal.WithoutFinal withoutFinal = new PolymorphismWithFinal.WithoutFinal();
 }
