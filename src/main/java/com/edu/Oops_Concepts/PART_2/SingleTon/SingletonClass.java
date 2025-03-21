@@ -1,4 +1,4 @@
-package com.edu.Oops_Concepts.Introduction_PART_2.SingleTon;
+package com.edu.Oops_Concepts.PART_2.SingleTon;
 
 
 // Singleton classes soul not have more than one instance

@@ -1,4 +1,4 @@
-package com.edu.Oops_Concepts.Principles.Inheritance;
+package com.edu.Oops_Concepts.PART_3.Inheritance;
 
 public class Main {
     public static void main(String[] args) {

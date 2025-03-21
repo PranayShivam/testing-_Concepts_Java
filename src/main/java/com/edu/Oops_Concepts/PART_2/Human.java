@@ -1,4 +1,4 @@
-package com.edu.Oops_Concepts.Introduction_PART_2;
+package com.edu.Oops_Concepts.PART_2;
 
 public class Human {
     int age;

@@ -1,4 +1,4 @@
-package com.edu.Oops_Concepts.Principles.Inheritance;
+package com.edu.Oops_Concepts.PART_3.Inheritance;
 
 public class GrandChild extends Child{
 

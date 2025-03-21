@@ -1,4 +1,4 @@
-package com.edu.Oops_Concepts.Polymorphysm;
+package com.edu.Oops_Concepts.PART_3.Polymorphism;
 
 public class Triangle extends Shapes{
     void area () {
