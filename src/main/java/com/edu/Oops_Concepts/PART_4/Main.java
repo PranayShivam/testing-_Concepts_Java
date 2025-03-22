@@ -18,7 +18,5 @@ public class Main {
         // Known as encapsulation
         accessModifiers.setNum(10);
         System.out.println(accessModifiers.getNum());
-
-
     }
 }
