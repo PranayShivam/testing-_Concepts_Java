@@ -4,4 +4,8 @@ public class Triangle extends Shapes{
     void area () {
         System.out.println(" Area of Triangle");
     }
+
+    static void greeting(){
+        System.out.println("Greeting Inside Triangle");
+    }
 }

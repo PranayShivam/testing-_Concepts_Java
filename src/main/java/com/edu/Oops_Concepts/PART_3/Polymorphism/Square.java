@@ -6,7 +6,7 @@ public class Square extends Shapes {
     }
 
 //    @Override
-    static void greeting(){
-        System.out.println("Inside Square, Child Class");
+    static void greeting()  {
+        System.out.println("Greeting Inside Square");
     }
 }

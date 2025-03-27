@@ -20,6 +20,6 @@ public class Shapes {
     }
 
     static void greeting(){
-        System.out.println("Inside Shapes, parent Class");
+        System.out.println("Greeting Inside Shapes");
     }
 }

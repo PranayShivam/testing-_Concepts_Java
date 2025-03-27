@@ -2,28 +2,29 @@ package com.edu.Oops_Concepts.PART_3.Polymorphism;
 
 public class Main {
     public static void main(String[] args) {
-        Shapes shapes = new Shapes();
-        Circle circle = new Circle();
-        Square square = new Square();
-        Triangle triangle = new Triangle();
+//        Shapes shapes = new Shapes();
+//        Circle circle = new Circle();
+//        Square square = new Square();
+//        Triangle triangle = new Triangle();
 
-        shapes.area();
-        square.area();
-        triangle.area();
-        circle.area();
+//        shapes.area();
+//        square.area();
+//        triangle.area();
+//        circle.area();
 
 //        Triangle triangle1 = new Shapes();
-        Shapes shapes1 = new Triangle();
-        shapes1.area();
+//        Shapes shapes1 = new Triangle();
+//        shapes1.area();
 
 //        Static method is not getting overridden because static methods are of the class and
 //        dose-not require reference
         Shapes sp = new Square();
         sp.greeting();
         Shapes.greeting();
+        Square.greeting();
 
-        shapes.setHiddenData(10);
-        System.out.println(shapes.getHiddenData());
+//        shapes.setHiddenData(10);
+//        System.out.println(shapes.getHiddenData());
 
     }
 }
