@@ -8,6 +8,7 @@ public class prac {
         //output : aabbbcccc
 //
 //        String str = "a2b3c4";
+//        String str = "2a3b4c";
 //        StringBuilder b = new StringBuilder();
 //        StringBuilder d = new StringBuilder();
 //        StringBuilder finalString = new StringBuilder();
@@ -129,7 +130,7 @@ public class prac {
         //input arr: 1,0,2,0,3,0,0,0
         //ouput arr: 1,2,3,0,0,0,0,0
 
-        
+
 
 
 

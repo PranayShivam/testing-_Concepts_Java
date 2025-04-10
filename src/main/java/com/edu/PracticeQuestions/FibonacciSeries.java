@@ -9,17 +9,17 @@ public class FibonacciSeries {
         int secondNumber =1;
         int n;
         StringBuilder fibonacciSeries =  new StringBuilder();
-        System.out.print("Max Iterations: ");
+        System.out.print("Enter Max Iterations: ");
         System.out.println("Printing first " + (n = sc.nextInt()) + " numbers of Fibonacci series");
 
-        if (n <= 0){
+        if (n < 1){
             System.out.println("Please enter a positive integer.");
             return;
         }
-        if (n >= 1) {
+        if (n > 0) {
             fibonacciSeries.append(firstNumber);
         }
-        if (n >= 2) {
+        if (n > 1) {
             fibonacciSeries.append(", ").append(secondNumber);
         }
         for (int i = 3; i <= n; i++) {
