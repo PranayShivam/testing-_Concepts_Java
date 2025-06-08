@@ -11,14 +11,14 @@ public class ProgramsForArrays {
         arr[2] = 7;
         arr[3] = 4;
         arr[4] = 5;
-//        System.out.println(Arrays.toString(arr));
-//        swap(arr, 1, 3);
-//        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
+        swap(arr, 1, 3);
+        System.out.println(Arrays.toString(arr));
 
-//        int maxVal = max(arr);
-//        System.out.println(maxVal);
-//        int maxValInRange = maxInRange(arr, 3, 4);
-//        System.out.println(maxValInRange);
+        int maxVal = max(arr);
+        System.out.println(maxVal);
+        int maxValInRange = maxInRange(arr, 3, 4);
+        System.out.println(maxValInRange);
 
         reverseArray(arr);
         System.out.println(Arrays.toString(arr));

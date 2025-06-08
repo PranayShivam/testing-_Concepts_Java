@@ -1,0 +1,99 @@
+package com.edu.Oops_Concepts.PART_6.CustomArrysAndGenerics;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+/**
+ * Creating a Custom ArrayList with Default Size as 10
+ * Methods to be added:
+ * add(value)
+ * remove(index)
+ * get(index)
+ * set(index, value)
+ * size()
+ * isEmpty
+ */
+
+@SuppressWarnings("unchecked")
+public class CustomGenericArrayList<T> {
+
+    private Object[] arr;
+    private static final int DEFAULT_SIZE = 5;
+    private int size = 0;
+
+    private boolean isFull(){
+        return size == arr.length;
+    }
+
+    /**
+     * Here,
+     * arr.length + 1 brings up Time complexity of O(n)^2 -- Very Bad
+     * arr.length * 2 brings up Time complexity of O(n)   -- Good
+     */
+    private void resize() {
+        Object [] temp = new Object[arr.length+1];
+        System.arraycopy(arr, 0, temp, 0, arr.length);
+        arr = temp;
+    }
+
+    public CustomGenericArrayList() {
+        arr = new Object[DEFAULT_SIZE];
+    }
+
+    public CustomGenericArrayList(int initialCapacity) {
+        arr = new Object[initialCapacity];
+    }
+
+    public void add(T value) {
+        if(isFull()){
+            resize();
+        }
+        this.arr[size++] = value;
+    }
+
+    public T remove() {
+        if (size == 0) {
+            throw new IndexOutOfBoundsException("Array is EMPTY");
+        }
+        T removedValue = (T) arr[--size];
+        arr[size] = null;
+        return removedValue;
+    }
+
+    public void remove(int index) {
+        if (arr.length > index) {
+            arr[index] = null;
+        } else {
+            throw new IndexOutOfBoundsException("Array Size is less than Index: " + index);
+        }
+    }
+
+    public T get(int index) {
+        return (T) arr[index-1];
+    }
+
+    public int size() {
+        return arr.length;
+    }
+
+    public void set(int index, T val) {
+        if (index >= size) {
+            throw new IndexOutOfBoundsException("Index " + index + " out of bounds for size " + size);
+        }
+        arr[index]  = val;
+    }
+
+    @Override
+    public String toString() {
+        return "CustomArrayList{" +
+                "arr=" + Arrays.toString(arr) +
+                ", size=" + size +
+                '}';
+    }
+
+    public void getList(List<Number> list){
+        System.out.println(Collections.singletonList(list));
+    }
+
+}

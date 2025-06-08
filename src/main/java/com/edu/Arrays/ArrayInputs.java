@@ -24,13 +24,13 @@ public class ArrayInputs {
 
 // Printing the arrays
         for (int i = 0;i<arr.length;i++) {
-            System.out.print(arr[i] + " ");
+            System.out.print(arr[i] + "");
         }
 
 // Enhanced for Loop
 
-// Syntax :
-// for (datatype refVarName : arrayName) { print refVarName }   for every element in array print that element
+// Syntax:
+// for (datatype refVarName: arrayName) { print refVarName } for every element in array print that element
         for (int j : arr){
             System.out.print(j + " ");
         }

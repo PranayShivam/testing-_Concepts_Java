@@ -13,12 +13,18 @@ public class IntroToArrayList {
         we need to add wrapper classes , we cannot use Primitive data types here
          EVERY CLASS INHERITS THE OBJECT CALL >>>  OBJECT CLASS IS THE TOP LEVEL CLASS
 
-         Internally the size is fixed, as soon as array list fills by some amount it will it increase the size
+         Internally the size is fixed, as soon as array list fills by some amount it will increase the size
          */
         ArrayList<Integer> arr = new ArrayList<>(10);  // Inside ArrayList<we need to store Class not Primitives
         ArrayList<String> str = new ArrayList<>(); // Declaring initial capacity is upto the coder
 //      this is possible but not a good practice
         ArrayList demo = new ArrayList();
+        demo.add("abc");
+        demo.add(23);
+
+        for (Object i: demo){
+            System.out.println(i+"");
+        }
         arr.add(67);
         arr.add(87);
         System.out.println(arr);
