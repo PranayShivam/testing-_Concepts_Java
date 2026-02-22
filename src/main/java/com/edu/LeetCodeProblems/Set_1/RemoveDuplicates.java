@@ -1,6 +1,4 @@
-package com.edu.LeetCodeProblems;
-
-import java.util.Arrays;
+package com.edu.LeetCodeProblems.Set_1;
 
 public class RemoveDuplicates {
 

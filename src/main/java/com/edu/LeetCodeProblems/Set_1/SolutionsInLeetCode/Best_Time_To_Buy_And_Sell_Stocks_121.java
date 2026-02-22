@@ -1,8 +1,8 @@
-package com.edu.LeetCodeProblems.SolutionsInLeetCode;
+package com.edu.LeetCodeProblems.Set_1.SolutionsInLeetCode;
 
 /**
  * As per MaxProfit code
- * Location = package com.edu.LeetCodeProblems.MaxProfit
+ * Location = package com.edu.LeetCodeProblems.Set_1.MaxProfit
  */
 public class Best_Time_To_Buy_And_Sell_Stocks_121 {
 
